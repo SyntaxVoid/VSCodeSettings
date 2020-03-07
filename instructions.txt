@@ -1,1 +1,2 @@
 1. settings.json goes in C:\Users\<username>\AppData\Roaming\Code\User\settings.json
+2. keybindings.json goes in C:\Users\<username>\AppData\Roaming\Code\User\keybindings.json
