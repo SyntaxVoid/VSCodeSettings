@@ -1,0 +1,1 @@
+1. settings.json goes in C:\Users\<username>\AppData\Roaming\Code\User\settings.json
