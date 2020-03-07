@@ -1,0 +1,46 @@
+{
+    "breadcrumbs.enabled": true,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "code-runner.runInTerminal": true,
+    "editor.rulers": [0, 80],
+    "editor.tabSize": 2,
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#02bcf9",
+        // "editor.background": "#191819",
+        "editorLineNumber.activeForeground": "#e242f4",
+        "editorLineNumber.foreground": "#42f46e",
+        // "editor.selectionHighlightBackground": "#918e7e"    
+        },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+        {
+            "scope": "meta.function-call.generic.python",
+            "settings": { "foreground": "#a6e222"}},
+        {
+            "scope": 
+                ["variable.language.special.self.python",
+                 "variable.parameter.function.language.special.self.python",
+                 "variable.language.special.cls.python",
+                 "variable.parameter.function.language.special.cls.python",
+                 
+                 ],
+            "settings": { "foreground": "#de0ee6"}},
+            {
+            "scope": "entity.name.type.class.python",
+            "settings": { "foreground": "#de0ee6"}
+            }
+        ]
+      },
+    "workbench.iconTheme": "Monokai Classic Icons",
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 17,
+    "workbench.colorTheme": "Chromodynamics",
+    "workbench.activityBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "python.dataScience.sendSelectionToInteractiveWindow": true
+}
+// MagicPython details can be found here: 
+//      https://github.com/MagicStack/MagicPython/blob/master/misc/scopes
+// =) 
